@@ -4,12 +4,13 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
         IMAGE_NAME_DEV = "rjaiswal127/react-app-dev"
+        IMAGE_NAME_PROD = "rjaiswal127/react-app-prod"
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: "${env.BRANCH_NAME}", url: 'https://github.com/rishi-cmyk/guvi-final-project.git'
+                git branch: "${env.BRANCH_NAME}", url: '200~https://github.com/rishi-cmyk/guvi-final-project.git'
             }
         }
 
