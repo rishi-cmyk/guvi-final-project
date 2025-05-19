@@ -7,10 +7,10 @@ echo "Logging into Docker Hub..."
 docker login
 
 echo "Building Docker image..."
-docker build -f build/Dockerfile -t rjaiswal127/react-app-dev:latest .
+docker build -f build/Dockerfile -t rjaiswal127/react-app-prod:latest .
 
 echo "Pushing Docker image to Docker Hub..."
-docker push rjaiswal127/react-app-dev:latest
+docker push rjaiswal127/react-app-prod:latest
 
 echo "Build and push completed successfully."
 
