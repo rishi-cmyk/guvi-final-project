@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-IMAGE_NAME="rjaiswal127/react-app-dev"
+IMAGE_NAME="rjaiswal127/react-app-prod"
 TAG="latest"
 CONTAINER_NAME="react-app"
 
